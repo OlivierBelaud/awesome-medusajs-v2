@@ -372,15 +372,44 @@ All 20 published profiles in the Medusa Experts directory as of November 24, 202
 
 ## Projects in production
 
-These implementation accounts identify Medusa v2 directly or link to a v2 application manifest.
+The linked cases describe what went live and credit the people or teams who contributed. Separate sources are linked where they help establish the Medusa version or the scope of the work.
 
-- [4Life Nutrition](https://github.com/domingos-engineering/4life-nutrition-showcase) — Sports nutrition storefront with catalog and subscription work.
-- [Froodly](https://agency.namankataria.com/work/building-froodly-a-headless-d2c-e-commerce-platform-for-grocery-delivery) — Grocery delivery storefront by Naman Kataria's team.
-- [Lunula Botanique](https://progrise.dev/work/lunula-botanique/) — Progrise's migration of an organic skincare shop.
-- [Metro Apparel](https://github.com/NafisHandoko/metroapparel) — Storefront and backend source for an apparel merchant.
-- [Sivam Nighties](https://www.harnikadesign.com/work/sivam-nighties/) — Harnika Design's migration of a fashion storefront from WooCommerce.
-- [Tekla](https://medusajs.com/kb/order-management/online-and-retail-pos) — The retailer runs its online store and in-store point of sale with Medusa.
-- [Vision Rescue](https://www.sobefy.com/portfolio/shopify-to-medusa-replatform) — Sobefy's replatforming of DTC and wholesale storefronts from Shopify.
+### Agency implementations
+
+| Project | Agency | What shipped |
+| --- | --- | --- |
+| [Agent Paper](https://zakaru.studio/cas-clients/agent-paper) | Zakaru | Unified three storefronts with separate catalogs and pricing for consumers, businesses, and resellers. [Store](https://www.agentpaper.com/fr) |
+| [Buketi.mk](https://www.ebarion.com/work/buketi-mk) | Ebarion | Flower marketplace on Medusa and Mercur, with vendor dashboards and payouts. [Store](https://buketi.mk/) |
+| [CarHunter](https://nsweb.dev/projects/carhunter) | NSWEB | Tire and wheel storefront with item-level stock, CSV inventory imports, and warehouse tooling. [Store](https://rattad.com/) |
+| [DrillStom](https://seedlight.eu/work/drillstom) | Seedlight | Dental wholesale storefront with company accounts and a matrix for product variants. [Store](https://drillstom.pl/) |
+| [Edith Wilmot](https://www.pinwheelagency.co.uk/blog/edith-wilmot-headless-florist-case-study) | Pinwheel | Florist storefront with catalog and same-day local delivery. |
+| [EvenMall](https://www.corplabs.co/portfolio/evenmall) | Corplabs | Furniture marketplace with Xendit payments. [Store](https://evenmall.com/) |
+| [Flatlist Eyewear](https://www.agilo.com/work/flatlist/) | Agilo | V2 migration and a wholesale portal for eyewear retailers. |
+| [Frecious](https://github.com/webbersagency/webbers-medusa/blob/ce4a0a3b229ccaf267e7e5dbc90ab5c4accaad0f/README.md) | Webbers | Medusa backend work documented through the V2 admin plugin that Webbers extracted from this project. |
+| [Froodly](https://agency.namankataria.com/work/building-froodly-a-headless-d2c-e-commerce-platform-for-grocery-delivery) | Agency by Naman Kataria | Grocery storefront and local delivery flows. [Launch report](https://agency.namankataria.com/insights/crossing-the-finish-line-the-froodly-launch-key-learnings-and-what-s-next) |
+| [Healthletic](https://medusajs.com/blog/healthletic) | Rigby | Phased migration from Shopify Plus, with storefront, checkout, and recurring subscriptions. [Related Medusa v2 guide](https://medusajs.com/kb/migrations-and-platforms/outgrown-shopify-plus) |
+| [Increddy](https://kryeo.com/work/increddy) | Kryeo | Replaced Shopify with a self-hosted Medusa v2 backend for digital license fulfillment while keeping the existing storefront. |
+| [Inspired Pet Nutrition](https://medusajs.com/blog/inspired-pet-nutrition) | rb2 | Order management system that turns emailed purchase orders into drafts and connects to the IFS and Tropos ERPs. |
+| [KryticalStyle](https://fynxforge.com/kryticalstyle-case-study.html) | Fynx Forge | Arabic and English fashion storefront with regional payment and shipping integrations. [Store](https://www.kryticalstyle.com/) |
+| [Lunula Botanique](https://progrise.dev/work/lunula-botanique/) | Progrise | E-commerce migration for an organic skincare brand. |
+| [Lumine Concept](https://syntance.com/portfolio/lumine-concept) | Syntance | WooCommerce migration for a beauty signage storefront. [V2 backend](https://github.com/Syntance/lumineconcept) |
+| [Maison Kameur](https://nualt.fr/en/case-studies/maison-kameur) | Nualt | Multi-artisan storefront and shipping flows. Nualt built its [V2 authentication plugin](https://github.com/nualt/medusa-plugin-better-auth) for this store. |
+| [Montelink](https://www.rigbyjs.com/case-studies/montelink) | Rigby | Multi-market marketplace with seller onboarding and payouts, built on Mercur. |
+| [Redington](https://medusajs.com/blog/redington) | Thoughtworks and Redington | B2B technology distribution platform, with workflows connecting ERP, warehouse management, and finance systems. [V2 implementation note](https://github.com/AlaguSelvan/AlaguSelvan/blob/43c16343d456ccbc0765c6d821e1d48d7be77cef/README.md) |
+| [Risitex / Lamongie](https://mith.tech/case-studies/lamongie-b2b-b2c-textile-commerce) | MithTech | Shared catalog for dealers and retail shoppers, with company pricing and ERPNext integration. [Store](https://lamongie.in/en) |
+| [Sivam Nighties](https://www.harnikadesign.com/work/sivam-nighties/) | Harnika Design | Fashion storefront migrated from WooCommerce. |
+| [Tekla](https://www.agilo.com/work/tekla/) | Agilo | Webshop and in-store point of sale backed by Medusa, with the V2 migration credited in Agilo's [Medusa profile](https://medusajs.com/experts/agilo). |
+| [Vision Rescue](https://www.sobefy.com/portfolio/shopify-to-medusa-replatform) | Sobefy | Consumer and wholesale optical storefronts migrated from Shopify. |
+| [Vitrine Masculina DTNA](https://www.lexondigital.com.br/work/vitrine-masculina) | Lexon Digital | Fashion storefront with a Mercado Pago payment module. [Store](https://vitrinemasculinadtna.com.br/) |
+| [Wipertech](https://medusajs.com/blog/wipertech) | 306 Technologies | Vehicle-first storefront and fitment engine for automotive parts, deployed on Medusa Cloud. [Related Medusa v2 guide](https://medusajs.com/kb/migrations-and-platforms/magento-migration) |
+| [Yogateria](https://thespecialcharacter.com/projects/yogateria) | The Special Character | WooCommerce migration for a Brazilian yoga retailer. [Store](https://yogateria.com.br/) |
+
+### Other implementation teams
+
+| Project | Implementation credit | What shipped |
+| --- | --- | --- |
+| [4Life Nutrition](https://github.com/domingos-engineering/4life-nutrition-showcase) | Domingos Engineering (contributing developer) | Sports nutrition storefront with commerce integrations and subscription workflows. |
+| [Metro Apparel](https://github.com/NafisHandoko/metroapparel) | Nafis Handoko | Custom apparel storefront with a public V2 backend repository. [Store](https://metroapparel.web.id/) |
 
 ## Contribute
 
