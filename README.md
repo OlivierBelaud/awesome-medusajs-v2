@@ -13,19 +13,19 @@ A directory of plugins, storefronts, and implementation teams for building with 
 
 ## Start by goal
 
-| Goal | Start here | See it in production |
-| --- | --- | --- |
-| Launch a direct-to-consumer store | [Medusa DTC Starter](https://github.com/medusajs/dtc-starter) and the [storefront guide](https://docs.medusajs.com/resources/storefront-development). | [Froodly](https://agency.namankataria.com/work/building-froodly-a-headless-d2c-e-commerce-platform-for-grocery-delivery) uses a custom grocery storefront and local delivery flows. |
-| Build a wholesale portal | [Medusa B2B Starter](https://github.com/medusajs/b2b-starter) and the [B2B recipe](https://docs.medusajs.com/resources/recipes/b2b). | [Flatlist Eyewear](https://www.agilo.com/work/flatlist/) shows how Agilo rebuilt an eyewear wholesale experience on Medusa v2. |
-| Build a marketplace | [Mercur](https://github.com/mercurjs/mercur) and the [Medusa marketplace recipe](https://docs.medusajs.com/resources/recipes/marketplace). | [Montelink](https://www.rigbyjs.com/case-studies/montelink) uses Mercur for vendor onboarding, per-minute billing, and payouts. |
-| Migrate from Shopify or WooCommerce | Start with Medusa's [Shopify migration guide](https://docs.medusajs.com/learn/introduction/build-with-llms-ai/docs-mcp-server/migrate-from-shopify) or inspect the [Lumine Concept backend](https://github.com/Syntance/lumineconcept) for a public WooCommerce migration example. | [Vision Rescue](https://www.sobefy.com/portfolio/shopify-to-medusa-replatform) migrated two stores from Shopify. [Sivam Nighties](https://www.harnikadesign.com/work/sivam-nighties/) migrated from WooCommerce. |
+| Goal                                | Start here                                                                                                                                                           | See it in production                                                                                                                   |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Launch a direct-to-consumer store   | [Medusa DTC Starter][dtc-starter] and the [storefront guide][storefront-guide].                                                                                      | [Froodly][froodly-case] uses a custom grocery storefront and local delivery flows.                                                     |
+| Build a wholesale portal            | [Medusa B2B Starter][b2b-starter] and the [B2B recipe](https://docs.medusajs.com/resources/recipes/b2b).                                                             | [Flatlist Eyewear][flatlist-case] shows how Agilo rebuilt an eyewear wholesale experience on Medusa v2.                                |
+| Build a marketplace                 | [Mercur][] and the [Medusa marketplace recipe](https://docs.medusajs.com/resources/recipes/marketplace).                                                             | [Montelink][montelink-case] uses Mercur for vendor onboarding, per-minute billing, and payouts.                                        |
+| Migrate from Shopify or WooCommerce | Start with Medusa's [Shopify migration guide][shopify-migration] or inspect the [Lumine Concept backend][lumine-backend] for a public WooCommerce migration example. | [Vision Rescue][vision-rescue-case] migrated two stores from Shopify. [Sivam Nighties][sivam-nighties-case] migrated from WooCommerce. |
 
 ## Build with Medusa v2
 
 - [Installation](https://docs.medusajs.com/learn/installation) - Set up the backend and admin, with the option to add a starter storefront.
 - [V2 architecture and migration](https://docs.medusajs.com/learn/introduction/from-v1-to-v2) - Understand the changes before migrating a V1 project.
 - [Commerce recipes](https://docs.medusajs.com/resources/recipes) - Design a B2B store, marketplace, subscription flow, or another commerce use case.
-- [Build a storefront](https://docs.medusajs.com/resources/storefront-development) - Use the Store API and JavaScript SDK to build the customer experience.
+- [Build a storefront][storefront-guide] - Use the Store API and JavaScript SDK to build the customer experience.
 - [Create a plugin](https://docs.medusajs.com/learn/fundamentals/plugins/create) - Package reusable modules, workflows, and admin extensions.
 - [Medusa Cloud](https://docs.medusajs.com/cloud) - Deploy and operate a Medusa application.
 
@@ -38,8 +38,8 @@ A directory of plugins, storefronts, and implementation teams for building with 
 - [Grounded for Bloom](https://medusajs.com/blog/announcing-grounded-starter) - Medusa-published storefront theme with core shopping flows, customizable through Bloom.
 - [Industrials B2B Starter](https://github.com/medusajs/industrials-b2b-starter) - Industrials storefront theme for Medusa B2B commerce.
 - [Industrials Bloom source](https://github.com/medusajs-repos/bloom-starter-industrials) - Bloom storefront template for industrial B2B catalogs featured by Medusa.
-- [Medusa B2B Starter](https://github.com/medusajs/b2b-starter) - Next.js starter for company accounts, quotes, and purchasing flows.
-- [Medusa DTC Starter](https://github.com/medusajs/dtc-starter) - General-purpose Next.js storefront and Medusa backend for direct-to-consumer commerce.
+- [Medusa B2B Starter][b2b-starter] - Next.js starter for company accounts, quotes, and purchasing flows.
+- [Medusa DTC Starter][dtc-starter] - General-purpose Next.js storefront and Medusa backend for direct-to-consumer commerce.
 - [Medusa Starter Directory](https://medusajs.com/starters) - Medusa's directory of core templates and specialized starters.
 - [Modern DTC Starter](https://github.com/medusajs/modern-dtc-starter) - Fashion-oriented DTC starter with a TanStack Start storefront and Medusa backend.
 
@@ -58,7 +58,7 @@ A directory of plugins, storefronts, and implementation teams for building with 
 
 - [Agilo Retail POS Starter](https://github.com/Agilo/medusa-pos-starter) - Agilo's in-store sales starter featured in the Medusa starter directory.
 - [Medusa Examples](https://github.com/medusajs/examples) - Official Medusa v2 implementations of focused commerce flows.
-- [Mercur](https://github.com/mercurjs/mercur) - Open-source multi-vendor commerce platform built on Medusa v2.
+- [Mercur][] - Open-source multi-vendor commerce platform built on Medusa v2.
 - [Munchies](https://github.com/tinloof/munchies) - Tinloof's reference B2C monorepo using Next.js, Sanity, and Medusa v2.
 
 ## Plugins and integrations
@@ -73,313 +73,313 @@ The Medusa directory lists **161 V2 packages** as of November 24, 2026. The tabl
 
 ### Admin and workflows
 
-| Extension or resource | Type |
-| --- | --- |
-| [Admin Customizations](https://medusajs.com/integrations/@webberswebbers-medusa) | Medusa partner |
-| [Admin Integration Config](https://medusajs.com/integrations/@gorgomedusa-integration) | Community |
-| [Automations](https://medusajs.com/integrations/@codee-automations) | Community |
-| [AWS EventBridge](https://github.com/ikhvost/medusa-event-bus-aws) — Publishes Medusa events to EventBridge. The module does not subscribe to events in Medusa. | Community |
-| [CRZA Plugins](https://medusajs.com/integrations/@crza69medusa-plugins) | Community |
-| [Flow Builder](https://medusajs.com/integrations/@rx-venturesmedusa-flow-builder-plugin) | Community |
-| [Order Comments](https://medusajs.com/integrations/medusa-plugin-order-comments) | Community |
-| [Webhooks](https://medusajs.com/integrations/lambdacurry-webhooks) | Medusa partner |
+| Extension or resource                                                                                                                                           | Type           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Admin Customizations](https://medusajs.com/integrations/@webberswebbers-medusa)                                                                                | Medusa partner |
+| [Admin Integration Config](https://medusajs.com/integrations/@gorgomedusa-integration)                                                                          | Community      |
+| [Automations](https://medusajs.com/integrations/@codee-automations)                                                                                             | Community      |
+| [AWS EventBridge](https://github.com/ikhvost/medusa-event-bus-aws) — Publishes Medusa events to EventBridge. The module does not subscribe to events in Medusa. | Community      |
+| [CRZA Plugins](https://medusajs.com/integrations/@crza69medusa-plugins)                                                                                         | Community      |
+| [Flow Builder](https://medusajs.com/integrations/@rx-venturesmedusa-flow-builder-plugin)                                                                        | Community      |
+| [Order Comments](https://medusajs.com/integrations/medusa-plugin-order-comments)                                                                                | Community      |
+| [Webhooks](https://medusajs.com/integrations/lambdacurry-webhooks)                                                                                              | Medusa partner |
 
 ### AI and developer tooling
 
-| Extension or resource | Type |
-| --- | --- |
+| Extension or resource                                                                                | Type      |
+| ---------------------------------------------------------------------------------------------------- | --------- |
 | [Agentic Commerce](https://medusajs.com/integrations/@financedistrictmedusa-plugin-agentic-commerce) | Community |
-| [AI Product Descriptions](https://medusajs.com/integrations/medusa-plugin-product-description) | Community |
-| [Claude Code](https://github.com/medusajs/medusa-agent-skills) | Guide |
-| [Enthusiast](https://medusajs.com/integrations/@upsidelabmedusa-plugin-enthusiast) | Community |
+| [AI Product Descriptions](https://medusajs.com/integrations/medusa-plugin-product-description)       | Community |
+| [Claude Code](https://github.com/medusajs/medusa-agent-skills)                                       | Guide     |
+| [Enthusiast](https://medusajs.com/integrations/@upsidelabmedusa-plugin-enthusiast)                   | Community |
 
 ### Analytics and observability
 
-| Extension or resource | Type |
-| --- | --- |
-| [Analytics](https://medusajs.com/integrations/agilo-analytics) | Medusa partner |
-| [Blotout Qinto Analytics](https://medusajs.com/integrations/@blotoutplatform-medusa) | Community |
-| [Google Analytics](https://medusajs.com/integrations/variablevic-google-analytics) | Community |
-| [Meta Commerce](https://medusajs.com/integrations/@wanderwaresmedusa-meta-commerce) | Community |
-| [PostHog](https://docs.medusajs.com/resources/infrastructure-modules/analytics/posthog) | Guide |
-| [Segment](https://docs.medusajs.com/resources/integrations/guides/segment) | Guide |
-| [Sentry](https://docs.medusajs.com/resources/integrations/guides/sentry) | Guide |
-| [Store Analytics](https://medusajs.com/integrations/rsc-labs-medusa-store-analytics-v2) | Community |
-| [Tinybird](https://medusajs.com/integrations/@zanrealmedusa-usage-tinybird) | Community |
+| Extension or resource                                                                   | Type           |
+| --------------------------------------------------------------------------------------- | -------------- |
+| [Analytics](https://medusajs.com/integrations/agilo-analytics)                          | Medusa partner |
+| [Blotout Qinto Analytics](https://medusajs.com/integrations/@blotoutplatform-medusa)    | Community      |
+| [Google Analytics](https://medusajs.com/integrations/variablevic-google-analytics)      | Community      |
+| [Meta Commerce](https://medusajs.com/integrations/@wanderwaresmedusa-meta-commerce)     | Community      |
+| [PostHog](https://docs.medusajs.com/resources/infrastructure-modules/analytics/posthog) | Guide          |
+| [Segment](https://docs.medusajs.com/resources/integrations/guides/segment)              | Guide          |
+| [Sentry](https://docs.medusajs.com/resources/integrations/guides/sentry)                | Guide          |
+| [Store Analytics](https://medusajs.com/integrations/rsc-labs-medusa-store-analytics-v2) | Community      |
+| [Tinybird](https://medusajs.com/integrations/@zanrealmedusa-usage-tinybird)             | Community      |
 
 ### Authentication and identity
 
-| Extension or resource | Type |
-| --- | --- |
-| [Argon2](https://medusajs.com/integrations/vymalo-argon2) | Community |
-| [Better Auth](https://medusajs.com/integrations/@nualtmedusa-plugin-better-auth) | Community |
-| [Email](https://docs.medusajs.com/resources/commerce-modules/auth/auth-providers/emailpass) | Guide |
-| [GitHub](https://docs.medusajs.com/resources/commerce-modules/auth/auth-providers/github) | Guide |
-| [Google](https://docs.medusajs.com/resources/commerce-modules/auth/auth-providers/google) | Guide |
-| [Keycloak](https://medusajs.com/integrations/vymalo-keycloak) | Community |
-| [Okta](https://docs.medusajs.com/resources/integrations/guides/okta) | Guide |
-| [Passwordless](https://medusajs.com/integrations/devx-commerce-passwordless) | Community |
-| [SuperTokens Auth](https://medusajs.com/integrations/@antibusymedusa-supertokens) | Community |
-| [Telegram](https://medusajs.com/integrations/@nxmadmedusa-telegram) | Community |
-| [Twilio](https://docs.medusajs.com/resources/how-to-tutorials/tutorials/phone-auth) | Guide |
-| [WebAuthn](https://medusajs.com/integrations/vymalo-webauthn) | Community |
-| [Zitadel](https://medusajs.com/integrations/medusa-auth-zitadel) | Community |
+| Extension or resource                                                                       | Type      |
+| ------------------------------------------------------------------------------------------- | --------- |
+| [Argon2](https://medusajs.com/integrations/vymalo-argon2)                                   | Community |
+| [Better Auth](https://medusajs.com/integrations/@nualtmedusa-plugin-better-auth)            | Community |
+| [Email](https://docs.medusajs.com/resources/commerce-modules/auth/auth-providers/emailpass) | Guide     |
+| [GitHub](https://docs.medusajs.com/resources/commerce-modules/auth/auth-providers/github)   | Guide     |
+| [Google](https://docs.medusajs.com/resources/commerce-modules/auth/auth-providers/google)   | Guide     |
+| [Keycloak](https://medusajs.com/integrations/vymalo-keycloak)                               | Community |
+| [Okta](https://docs.medusajs.com/resources/integrations/guides/okta)                        | Guide     |
+| [Passwordless](https://medusajs.com/integrations/devx-commerce-passwordless)                | Community |
+| [SuperTokens Auth](https://medusajs.com/integrations/@antibusymedusa-supertokens)           | Community |
+| [Telegram](https://medusajs.com/integrations/@nxmadmedusa-telegram)                         | Community |
+| [Twilio](https://docs.medusajs.com/resources/how-to-tutorials/tutorials/phone-auth)         | Guide     |
+| [WebAuthn](https://medusajs.com/integrations/vymalo-webauthn)                               | Community |
+| [Zitadel](https://medusajs.com/integrations/medusa-auth-zitadel)                            | Community |
 
 ### Billing, subscriptions, and digital products
 
-| Extension or resource | Type |
-| --- | --- |
-| [Digital Downloads](https://medusajs.com/integrations/@makecryptomedusa-plugin-digital-downloads) | Community |
-| [Digital Products](https://medusajs.com/integrations/medusa-plugin-digital-products) | Community |
-| [Reorder](https://medusajs.com/integrations/@reorderjsreorder) | Community |
-| [Subscriptions recipe](https://docs.medusajs.com/resources/recipes/subscriptions) — Build recurring commerce workflows using Medusa modules. | Guide |
-| [Zanreal Usage Metering](https://medusajs.com/integrations/@zanrealmedusa-usage) | Community |
+| Extension or resource                                                                                                                        | Type      |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| [Digital Downloads](https://medusajs.com/integrations/@makecryptomedusa-plugin-digital-downloads)                                            | Community |
+| [Digital Products](https://medusajs.com/integrations/medusa-plugin-digital-products)                                                         | Community |
+| [Reorder](https://medusajs.com/integrations/@reorderjsreorder)                                                                               | Community |
+| [Subscriptions recipe](https://docs.medusajs.com/resources/recipes/subscriptions) — Build recurring commerce workflows using Medusa modules. | Guide     |
+| [Zanreal Usage Metering](https://medusajs.com/integrations/@zanrealmedusa-usage)                                                             | Community |
 
 ### Catalog and merchandising
 
-| Extension or resource | Type |
-| --- | --- |
-| [Brand Management](https://medusajs.com/integrations/@mgtalabsmedusa-brand) | Community |
-| [Cart Rules](https://medusajs.com/integrations/@xross-devmedusa-cart-rules) | Community |
-| [Category Images](https://medusajs.com/integrations/@alphabitemedusa-category-images) | Community |
-| [Image-alt](https://medusajs.com/integrations/alpha-solutions-image-alt) | Community |
-| [Multistore](https://medusajs.com/integrations/@sepidarmedusa-multistore-plugin) | Community |
+| Extension or resource                                                                                | Type      |
+| ---------------------------------------------------------------------------------------------------- | --------- |
+| [Brand Management](https://medusajs.com/integrations/@mgtalabsmedusa-brand)                          | Community |
+| [Cart Rules](https://medusajs.com/integrations/@xross-devmedusa-cart-rules)                          | Community |
+| [Category Images](https://medusajs.com/integrations/@alphabitemedusa-category-images)                | Community |
+| [Image-alt](https://medusajs.com/integrations/alpha-solutions-image-alt)                             | Community |
+| [Multistore](https://medusajs.com/integrations/@sepidarmedusa-multistore-plugin)                     | Community |
 | [Product Attributes](https://medusajs.com/integrations/@empty-complete-orgmedusa-product-attributes) | Community |
-| [Variant Images](https://medusajs.com/integrations/medusa-variant-images) | Community |
+| [Variant Images](https://medusajs.com/integrations/medusa-variant-images)                            | Community |
 
 ### Content management
 
-| Extension or resource | Type |
-| --- | --- |
-| [Builder.io](https://medusajs.com/integrations/@weareseeedmedusa-plugin-builder) — Use Medusa store data in Builder.io pages. | Community |
-| [Collection images](https://medusajs.com/integrations/@alphabitemedusa-collection-images) — Set and manage images on Medusa product collections. | Community |
-| [Contentful](https://docs.medusajs.com/resources/integrations/guides/contentful) — Guide to localizing and managing storefront content outside the commerce backend. | Guide |
-| [Custom CMS](https://medusajs.com/integrations/medusa-plugin-content) — Edit headless content inside Medusa Admin. | Community |
-| [Greta CMS Sync](https://medusajs.com/integrations/@questlabsgreta-medusa-plugin) — Synchronize products with the Greta CMS. | Community |
-| [Legal Pages & Compliance](https://medusajs.com/integrations/medusa-plugin-legal-pages) — Maintain legal pages such as terms, privacy, and Impressum pages. | Community |
-| [Payload](https://docs.medusajs.com/resources/integrations/guides/payload) — Guide to synchronizing Medusa product data with Payload-managed content. | Guide |
-| [Sanity](https://docs.medusajs.com/resources/integrations/guides/sanity) — Guide to bringing Medusa products into a Sanity-backed storefront. | Guide |
-| [Storyblok](https://medusajs.com/integrations/alphabite-storyblok) — Synchronize Medusa products and assets with Storyblok. | Medusa partner |
-| [Strapi](https://medusajs.com/integrations/devx-commerce-strapi) — Synchronize product content and media with Strapi. | Community |
-| [Tolgee](https://medusajs.com/integrations/medusa-plugin-tolgee) — Manage translations for store content. | Community |
+| Extension or resource                                                                                                                                                | Type           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Builder.io](https://medusajs.com/integrations/@weareseeedmedusa-plugin-builder) — Use Medusa store data in Builder.io pages.                                        | Community      |
+| [Collection images](https://medusajs.com/integrations/@alphabitemedusa-collection-images) — Set and manage images on Medusa product collections.                     | Community      |
+| [Contentful](https://docs.medusajs.com/resources/integrations/guides/contentful) — Guide to localizing and managing storefront content outside the commerce backend. | Guide          |
+| [Custom CMS](https://medusajs.com/integrations/medusa-plugin-content) — Edit headless content inside Medusa Admin.                                                   | Community      |
+| [Greta CMS Sync](https://medusajs.com/integrations/@questlabsgreta-medusa-plugin) — Synchronize products with the Greta CMS.                                         | Community      |
+| [Legal Pages & Compliance](https://medusajs.com/integrations/medusa-plugin-legal-pages) — Maintain legal pages such as terms, privacy, and Impressum pages.          | Community      |
+| [Payload](https://docs.medusajs.com/resources/integrations/guides/payload) — Guide to synchronizing Medusa product data with Payload-managed content.                | Guide          |
+| [Sanity](https://docs.medusajs.com/resources/integrations/guides/sanity) — Guide to bringing Medusa products into a Sanity-backed storefront.                        | Guide          |
+| [Storyblok](https://medusajs.com/integrations/alphabite-storyblok) — Synchronize Medusa products and assets with Storyblok.                                          | Medusa partner |
+| [Strapi](https://medusajs.com/integrations/devx-commerce-strapi) — Synchronize product content and media with Strapi.                                                | Community      |
+| [Tolgee](https://medusajs.com/integrations/medusa-plugin-tolgee) — Manage translations for store content.                                                            | Community      |
 
 ### Customers, reviews, and support
 
-| Extension or resource | Type |
-| --- | --- |
-| [Chat Widget](https://medusajs.com/integrations/connectycube-chat-widget) | Community |
-| [Product Reviews by blegaut](https://medusajs.com/integrations/@blegaut-product-reviews-enhanced) | Community |
-| [Product Reviews by Lambda Curry](https://medusajs.com/integrations/lambdacurry-product-reviews) | Medusa partner |
-| [Richpanel](https://medusajs.com/integrations/medusa-plugin-richpanel) | Community |
-| [Wishlist by Alphabite](https://medusajs.com/integrations/alphabite-wishlist) | Community |
-| [Wishlist by RSC Labs](https://medusajs.com/integrations/rsc-labs-medusa-wishlist) | Community |
+| Extension or resource                                                                             | Type           |
+| ------------------------------------------------------------------------------------------------- | -------------- |
+| [Chat Widget](https://medusajs.com/integrations/connectycube-chat-widget)                         | Community      |
+| [Product Reviews by blegaut](https://medusajs.com/integrations/@blegaut-product-reviews-enhanced) | Community      |
+| [Product Reviews by Lambda Curry](https://medusajs.com/integrations/lambdacurry-product-reviews)  | Medusa partner |
+| [Richpanel](https://medusajs.com/integrations/medusa-plugin-richpanel)                            | Community      |
+| [Wishlist by Alphabite](https://medusajs.com/integrations/alphabite-wishlist)                     | Community      |
+| [Wishlist by RSC Labs](https://medusajs.com/integrations/rsc-labs-medusa-wishlist)                | Community      |
 
 ### ERP and back-office systems
 
-| Extension or resource | Type |
-| --- | --- |
-| [1C](https://medusajs.com/integrations/1c) — Synchronize products, orders, and inventory with 1C. | Community |
-| [BaseLinker](https://medusajs.com/integrations/medusa-baselinker) — Connect the Medusa catalog and orders to Base.com. | Community |
-| [Foundry IMS](https://medusajs.com/integrations/medusa-plugin-foundry-ims) — Synchronize inventory, orders, and fulfillment status. | Community |
-| [Gati](https://medusajs.com/integrations/@devx-commerceplugin-gati) — Connect Medusa with Gati ERP. | Medusa partner |
-| [Odoo](https://docs.medusajs.com/resources/recipes/erp/odoo) — Recipe for synchronizing products, customers, and orders. | Guide |
-| [PunchCommerce](https://medusajs.com/integrations/@punchcommercepunchcommerce-medusa-plugin) — Support B2B procurement through cXML, OCI, or IDS-Connect PunchOut. | Community |
-| [Subiekt Nexo ERP](https://medusajs.com/integrations/@koda-plusmedusa-plugin-subiekt-nexo) — Transfer orders and stock updates between Medusa and Subiekt nexo. | Community |
+| Extension or resource                                                                                                                                              | Type           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- |
+| [1C](https://medusajs.com/integrations/1c) — Synchronize products, orders, and inventory with 1C.                                                                  | Community      |
+| [BaseLinker](https://medusajs.com/integrations/medusa-baselinker) — Connect the Medusa catalog and orders to Base.com.                                             | Community      |
+| [Foundry IMS](https://medusajs.com/integrations/medusa-plugin-foundry-ims) — Synchronize inventory, orders, and fulfillment status.                                | Community      |
+| [Gati](https://medusajs.com/integrations/@devx-commerceplugin-gati) — Connect Medusa with Gati ERP.                                                                | Medusa partner |
+| [Odoo](https://docs.medusajs.com/resources/recipes/erp/odoo) — Recipe for synchronizing products, customers, and orders.                                           | Guide          |
+| [PunchCommerce](https://medusajs.com/integrations/@punchcommercepunchcommerce-medusa-plugin) — Support B2B procurement through cXML, OCI, or IDS-Connect PunchOut. | Community      |
+| [Subiekt Nexo ERP](https://medusajs.com/integrations/@koda-plusmedusa-plugin-subiekt-nexo) — Transfer orders and stock updates between Medusa and Subiekt nexo.    | Community      |
 
 ### File storage
 
-| Extension or resource | Type |
-| --- | --- |
-| [Cloudinary](https://github.com/jaykanjia/medusa-file-cloudinary) — Uses Cloudinary to store and retrieve media. Its published manifest targets Medusa 2.4.0. | Community |
-| [GCP Cloud Storage](https://medusajs.com/integrations/gcp-cloud-storage) | Community |
-| [Local File](https://medusajs.com/integrations/@medusajsfile-local) | Official Medusa |
-| [MinIO (Vymalo)](https://medusajs.com/integrations/@vymalomedusa-minio) | Community |
-| [S3-compatible storage providers](https://docs.medusajs.com/resources/infrastructure-modules/file/s3) | Guide |
+| Extension or resource                                                                                                                                         | Type            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| [Cloudinary](https://github.com/jaykanjia/medusa-file-cloudinary) — Uses Cloudinary to store and retrieve media. Its published manifest targets Medusa 2.4.0. | Community       |
+| [GCP Cloud Storage](https://medusajs.com/integrations/gcp-cloud-storage)                                                                                      | Community       |
+| [Local File](https://medusajs.com/integrations/@medusajsfile-local)                                                                                           | Official Medusa |
+| [MinIO (Vymalo)](https://medusajs.com/integrations/@vymalomedusa-minio)                                                                                       | Community       |
+| [S3-compatible storage providers](https://docs.medusajs.com/resources/infrastructure-modules/file/s3)                                                         | Guide           |
 
 ### Fulfillment and shipping
 
-| Extension or resource | Type |
-| --- | --- |
-| [Apiship](https://medusajs.com/integrations/apiship) | Community |
-| [Boxtal](https://medusajs.com/integrations/medusa-plugin-boxtal-v2) | Community |
-| [Colissimo](https://medusajs.com/integrations/@gx2studio-colissimo) | Community |
-| [InPost](https://medusajs.com/integrations/medusa-inpost-fulfillment) | Community |
-| [InPost (Koda Plus)](https://medusajs.com/integrations/@koda-plusmedusa-plugin-inpost) | Community |
-| [Makesend](https://medusajs.com/integrations/@civicagrotech-makesend) | Community |
-| [Manual Fulfillment](https://medusajs.com/integrations/@medusajsfulfillment-manual) | Official Medusa |
-| [Mondial Relay](https://medusajs.com/integrations/mondialrelay) | Community |
-| [nShift](https://medusajs.com/integrations/@solteq-excommedusa-fulfillment-nshift) | Community |
-| [Packeta](https://medusajs.com/integrations/medusa-plugin-packeta) | Community |
-| [Print Trail](https://medusajs.com/integrations/medusa-plugin-print-trail) | Community |
-| [Printful](https://medusajs.com/integrations/@legenkiprint2medusa) | Community |
-| [Sendcloud](https://medusajs.com/integrations/@saphes-sendcloud-plugin) | Community |
-| [Shiprocket](https://medusajs.com/integrations/@sam-aelmedusa-plugin-shiprocket) | Community |
-| [ShipStation](https://docs.medusajs.com/resources/integrations/guides/shipstation) | Guide |
-| [Veeqo](https://medusajs.com/integrations/medusa-plugin-veeqo) | Community |
-| [VMS Guru](https://medusajs.com/integrations/@vmsgurumedusa-plugin) | Community |
+| Extension or resource                                                                  | Type            |
+| -------------------------------------------------------------------------------------- | --------------- |
+| [Apiship](https://medusajs.com/integrations/apiship)                                   | Community       |
+| [Boxtal](https://medusajs.com/integrations/medusa-plugin-boxtal-v2)                    | Community       |
+| [Colissimo](https://medusajs.com/integrations/@gx2studio-colissimo)                    | Community       |
+| [InPost](https://medusajs.com/integrations/medusa-inpost-fulfillment)                  | Community       |
+| [InPost (Koda Plus)](https://medusajs.com/integrations/@koda-plusmedusa-plugin-inpost) | Community       |
+| [Makesend](https://medusajs.com/integrations/@civicagrotech-makesend)                  | Community       |
+| [Manual Fulfillment](https://medusajs.com/integrations/@medusajsfulfillment-manual)    | Official Medusa |
+| [Mondial Relay](https://medusajs.com/integrations/mondialrelay)                        | Community       |
+| [nShift](https://medusajs.com/integrations/@solteq-excommedusa-fulfillment-nshift)     | Community       |
+| [Packeta](https://medusajs.com/integrations/medusa-plugin-packeta)                     | Community       |
+| [Print Trail](https://medusajs.com/integrations/medusa-plugin-print-trail)             | Community       |
+| [Printful](https://medusajs.com/integrations/@legenkiprint2medusa)                     | Community       |
+| [Sendcloud](https://medusajs.com/integrations/@saphes-sendcloud-plugin)                | Community       |
+| [Shiprocket](https://medusajs.com/integrations/@sam-aelmedusa-plugin-shiprocket)       | Community       |
+| [ShipStation](https://docs.medusajs.com/resources/integrations/guides/shipstation)     | Guide           |
+| [Veeqo](https://medusajs.com/integrations/medusa-plugin-veeqo)                         | Community       |
+| [VMS Guru](https://medusajs.com/integrations/@vmsgurumedusa-plugin)                    | Community       |
 
 ### Marketplaces and sales channels
 
-| Extension or resource | Type |
-| --- | --- |
-| [Allegro Marketplace](https://medusajs.com/integrations/@zanrealmedusa-allegro) | Community |
-| [Athos Commerce](https://medusajs.com/integrations/@weareseeedmedusa-athos-plugin) | Community |
-| [Etsy Product Sync](https://medusajs.com/integrations/@jytextilesmedusa-plugin-etsy-sync) | Community |
-| [Faire Store Sync](https://medusajs.com/integrations/@jytextilesmedusa-plugin-faire-store-sync) | Community |
+| Extension or resource                                                                                            | Type      |
+| ---------------------------------------------------------------------------------------------------------------- | --------- |
+| [Allegro Marketplace](https://medusajs.com/integrations/@zanrealmedusa-allegro)                                  | Community |
+| [Athos Commerce](https://medusajs.com/integrations/@weareseeedmedusa-athos-plugin)                               | Community |
+| [Etsy Product Sync](https://medusajs.com/integrations/@jytextilesmedusa-plugin-etsy-sync)                        | Community |
+| [Faire Store Sync](https://medusajs.com/integrations/@jytextilesmedusa-plugin-faire-store-sync)                  | Community |
 | [Google Merchant Center Feed](https://medusajs.com/integrations/@weareseeedmedusa-google-merchant-center-plugin) | Community |
-| [Multivendor Marketplace](https://medusajs.com/integrations/@techlabimedusa-marketplace-plugin) | Community |
-| [OLX Marketplace Sync](https://medusajs.com/integrations/@koda-plusmedusa-plugin-olx) | Community |
-| [Product Feeds](https://medusajs.com/integrations/@wanderwaresmedusa-product-feeds) | Community |
-| [Yandex Feed](https://medusajs.com/integrations/yandex-yml-feed) | Community |
+| [Multivendor Marketplace](https://medusajs.com/integrations/@techlabimedusa-marketplace-plugin)                  | Community |
+| [OLX Marketplace Sync](https://medusajs.com/integrations/@koda-plusmedusa-plugin-olx)                            | Community |
+| [Product Feeds](https://medusajs.com/integrations/@wanderwaresmedusa-product-feeds)                              | Community |
+| [Yandex Feed](https://medusajs.com/integrations/yandex-yml-feed)                                                 | Community |
 
 ### Migration and data sync
 
-| Extension or resource | Type |
-| --- | --- |
-| [Magento](https://docs.medusajs.com/resources/integrations/guides/magento) | Guide |
-| [Shopify migration with Medusa agent skills](https://docs.medusajs.com/learn/introduction/build-with-llms-ai/docs-mcp-server/migrate-from-shopify) — Follow Medusa’s Shopify migration guide for catalog and store data. | Guide |
-| [Shopify Sync](https://medusajs.com/integrations/@rx-venturesmedusa-plugin-shopify-sync) | Community |
+| Extension or resource                                                                                                                 | Type      |
+| ------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| [Magento](https://docs.medusajs.com/resources/integrations/guides/magento)                                                            | Guide     |
+| [Shopify migration with Medusa agent skills][shopify-migration] — Follow Medusa’s Shopify migration guide for catalog and store data. | Guide     |
+| [Shopify Sync](https://medusajs.com/integrations/@rx-venturesmedusa-plugin-shopify-sync)                                              | Community |
 
 ### Notifications and messaging
 
-| Extension or resource | Type |
-| --- | --- |
-| [Amazon SES](https://github.com/pevey/medusa-plugins/tree/develop/packages/notification-ses) — Sends Medusa notification emails through Amazon SES. Check the exact Medusa peer version before installing. | Community |
-| [Apprise](https://medusajs.com/integrations/vymalo-apprise) | Community |
-| [Bloomreach](https://medusajs.com/integrations/@igorppbr-bloomreach) | Community |
-| [Discord Notifications](https://medusajs.com/integrations/@sam-aelmedusa-plugin-discord) | Community |
-| [Ecomail](https://medusajs.com/integrations/ecomail) | Community |
-| [Email Notifications](https://medusajs.com/integrations/@sam-aelmedusa-plugin-mailer) | Community |
-| [Klaviyo](https://medusajs.com/integrations/@oak-digitalmedusa-plugin-klaviyo) | Medusa partner |
-| [Local Notification](https://docs.medusajs.com/resources/infrastructure-modules/notification/local) | Guide |
-| [Mailchimp](https://docs.medusajs.com/resources/integrations/guides/mailchimp) | Guide |
-| [Mailgun by mdgar](https://medusajs.com/integrations/@mdgarmedusa-notification-mailgun) | Community |
-| [Mailgun by Webbers B.V.](https://medusajs.com/integrations/@webbers-mailgun) | Medusa partner |
-| [Nodemailer](https://medusajs.com/integrations/perseidesjs-nodemailer) | Community |
-| [Postal Notifications](https://medusajs.com/integrations/@uhlhostingmedusa-notification-postal) | Community |
-| [Postmark](https://github.com/Fullstak-nl/medusa-plugin-postmark) — Sends transactional email through Postmark. The published package targets Medusa ^2.11.1. | Community |
-| [Resend](https://docs.medusajs.com/resources/integrations/guides/resend) | Guide |
-| [SendGrid](https://docs.medusajs.com/resources/architectural-modules/notification/sendgrid) — Configure the official SendGrid provider for transactional notifications. | Guide |
-| [Slack](https://docs.medusajs.com/resources/integrations/guides/slack) | Guide |
-| [SMSAPI](https://medusajs.com/integrations/yanchesky-smsapi) | Community |
-| [SMTP Senpai](https://medusajs.com/integrations/medusa-plugin-smtp-senpai) | Community |
-| [WhatsApp](https://medusajs.com/integrations/@sam-aelmedusa-plugin-whatsapp) | Community |
-| [ZeptoMail Notifications](https://medusajs.com/integrations/@take3labszeptomail) | Community |
+| Extension or resource                                                                                                                                                                                      | Type           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Amazon SES](https://github.com/pevey/medusa-plugins/tree/develop/packages/notification-ses) — Sends Medusa notification emails through Amazon SES. Check the exact Medusa peer version before installing. | Community      |
+| [Apprise](https://medusajs.com/integrations/vymalo-apprise)                                                                                                                                                | Community      |
+| [Bloomreach](https://medusajs.com/integrations/@igorppbr-bloomreach)                                                                                                                                       | Community      |
+| [Discord Notifications](https://medusajs.com/integrations/@sam-aelmedusa-plugin-discord)                                                                                                                   | Community      |
+| [Ecomail](https://medusajs.com/integrations/ecomail)                                                                                                                                                       | Community      |
+| [Email Notifications](https://medusajs.com/integrations/@sam-aelmedusa-plugin-mailer)                                                                                                                      | Community      |
+| [Klaviyo](https://medusajs.com/integrations/@oak-digitalmedusa-plugin-klaviyo)                                                                                                                             | Medusa partner |
+| [Local Notification](https://docs.medusajs.com/resources/infrastructure-modules/notification/local)                                                                                                        | Guide          |
+| [Mailchimp](https://docs.medusajs.com/resources/integrations/guides/mailchimp)                                                                                                                             | Guide          |
+| [Mailgun by mdgar](https://medusajs.com/integrations/@mdgarmedusa-notification-mailgun)                                                                                                                    | Community      |
+| [Mailgun by Webbers B.V.](https://medusajs.com/integrations/@webbers-mailgun)                                                                                                                              | Medusa partner |
+| [Nodemailer](https://medusajs.com/integrations/perseidesjs-nodemailer)                                                                                                                                     | Community      |
+| [Postal Notifications](https://medusajs.com/integrations/@uhlhostingmedusa-notification-postal)                                                                                                            | Community      |
+| [Postmark](https://github.com/Fullstak-nl/medusa-plugin-postmark) — Sends transactional email through Postmark. The published package targets Medusa ^2.11.1.                                              | Community      |
+| [Resend](https://docs.medusajs.com/resources/integrations/guides/resend)                                                                                                                                   | Guide          |
+| [SendGrid](https://docs.medusajs.com/resources/architectural-modules/notification/sendgrid) — Configure the official SendGrid provider for transactional notifications.                                    | Guide          |
+| [Slack](https://docs.medusajs.com/resources/integrations/guides/slack)                                                                                                                                     | Guide          |
+| [SMSAPI](https://medusajs.com/integrations/yanchesky-smsapi)                                                                                                                                               | Community      |
+| [SMTP Senpai](https://medusajs.com/integrations/medusa-plugin-smtp-senpai)                                                                                                                                 | Community      |
+| [WhatsApp](https://medusajs.com/integrations/@sam-aelmedusa-plugin-whatsapp)                                                                                                                               | Community      |
+| [ZeptoMail Notifications](https://medusajs.com/integrations/@take3labszeptomail)                                                                                                                           | Community      |
 
 ### Payments
 
-| Extension or resource | Type |
-| --- | --- |
-| [Adyen](https://medusajs.com/integrations/@minimall.io-adyen) — Community Adyen payment provider from Minimall. | Community |
-| [Adyen Official](https://medusajs.com/integrations/@medusajspayment-adyen) — Payment provider maintained by Medusa in partnership with Adyen. | Official Medusa |
-| [Authorize.net](https://medusajs.com/integrations/authorizenet) | Community |
-| [Blockonomics](https://medusajs.com/integrations/@blockonomicsmedusa-payment-blockonomics) | Community |
-| [Braintree](https://medusajs.com/integrations/lambdacurry-braintree) | Medusa partner |
-| [BTCPay](https://medusajs.com/integrations/btcpay) | Community |
-| [CLINK](https://medusajs.com/integrations/medusa-plugin-bitcoin-lightning-via-clink) | Community |
-| [Comgate](https://medusajs.com/integrations/medusa-plugin-comgate) | Community |
-| [Cryptonly](https://medusajs.com/integrations/@cryptonlymedusa-plugin-cryptonly) | Community |
-| [CutLuy](https://medusajs.com/integrations/medusa-payment-cutluy) | Community |
-| [CyberSource](https://medusajs.com/integrations/cybersource) | Community |
-| [Juspay Hyperswitch](https://medusajs.com/integrations/@juspay-techmedusa-custom-payments) | Community |
-| [M-Pesa Payments](https://medusajs.com/integrations/medusa-payment-mpesa) | Community |
-| [MakePay](https://medusajs.com/integrations/@makecryptomedusa-plugin-makepay) | Community |
-| [Manual Bank Transfer](https://medusajs.com/integrations/medusa-payment-manual-transfer) — Collect bank transfers with a payment-proof upload. | Community |
-| [Manual Payment](https://medusajs.com/integrations/medusajs-payment) — Record payments handled outside an online gateway. | Official Medusa |
-| [MercadoPago by Hewsos](https://medusajs.com/integrations/@hewsosmedusa-pay-mpago) — Support cards, PIX, and refunds in Mercado Pago. | Community |
-| [Mercadopago by Nicolas Gorga](https://medusajs.com/integrations/nicogorga-mercadopago) — Connect a Medusa store to Mercado Pago for Latin American payments. | Community |
-| [Mobupay](https://medusajs.com/integrations/medusa-payment-mobupay) | Community |
-| [Mollie (Joey D)](https://medusajs.com/integrations/@joey-dmollie-payments-medusa) | Community |
-| [MONEI](https://medusajs.com/integrations/medusa-payment-monei) | Community |
-| [NMI](https://medusajs.com/integrations/medusa-payment-nmi) | Community |
-| [Nova Money](https://medusajs.com/integrations/@novamoney-nova-pay) | Community |
-| [Open Border](https://medusajs.com/integrations/@open-bordermedusa-payment-openborder) | Community |
-| [Pay.](https://medusajs.com/integrations/@webbers-pay) | Medusa partner |
-| [PayPal setup guide](https://medusajs.com/blog/paypal-integration/) — Medusa walkthrough for setting up PayPal payments. | Guide |
-| [PayPal by Alphabite](https://medusajs.com/integrations/alphabite-paypal) — Supports captures and refunds. Current releases target Medusa 2.13 or later. The publisher documents plugin 0.2.5 for earlier Medusa v2 versions. | Community |
-| [PayPal by EasyPayment Plugins](https://medusajs.com/integrations/@easypaymentmedusa-payment-paypal) — Offer PayPal buttons and hosted card fields, with account setup in Medusa Admin. | Community |
-| [PayPal by RSC Labs](https://medusajs.com/integrations/@rsc-labs-paypal) — Payment provider for PayPal capture and refund flows. | Community |
-| [Paystack](https://medusajs.com/integrations/paystack) | Community |
-| [Paytrail](https://medusajs.com/integrations/@solteq-excommedusa-payment-paytrail) | Community |
-| [PayU](https://medusajs.com/integrations/@sam-ael-payu) | Community |
-| [Peach](https://medusajs.com/integrations/medusa-payment-peach-payments) | Community |
-| [POS Payments (Brazil)](https://medusajs.com/integrations/@voolulabsmedusajs-plugin-pos-payments) | Community |
-| [Przelewy24](https://medusajs.com/integrations/gmisoftware-przelewy24) | Community |
-| [Razorpay](https://medusajs.com/integrations/@sgftechpayment-razorpay) | Community |
-| [Robokassa](https://medusajs.com/integrations/robokassa) | Community |
-| [Square by RSC Labs](https://medusajs.com/integrations/@rsc-labsmedusa-square-payment) — Accept in-person payments through Square POS. | Community |
-| [Square by Seeed](https://medusajs.com/integrations/@weareseeedmedusa-square-plugin) — Process Square payments through a Medusa payment provider. | Medusa partner |
-| [Stripe Official](https://medusajs.com/integrations/@medusajspayment-stripe) — Accept cards and wallets using Medusa's official provider. | Official Medusa |
-| [SumUp](https://medusajs.com/integrations/medusa-payment-sumup) | Community |
-| [T-Kassa](https://medusajs.com/integrations/t-kassa) | Community |
-| [Tochka](https://medusajs.com/integrations/@medusa-tochka) | Community |
-| [Tpay](https://medusajs.com/integrations/tpay) | Community |
-| [Vonpay](https://medusajs.com/integrations/vonpay-medusa) | Community |
-| [Wompi](https://medusajs.com/integrations/@mantissaiomedusa-payment-wompi) | Community |
-| [YooKassa](https://medusajs.com/integrations/yookassa) | Community |
-| [Zoho Payments](https://medusajs.com/integrations/medusa-payment-zoho) | Community |
+| Extension or resource                                                                                                                                                                                                         | Type            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| [Adyen](https://medusajs.com/integrations/@minimall.io-adyen) — Community Adyen payment provider from Minimall.                                                                                                               | Community       |
+| [Adyen Official](https://medusajs.com/integrations/@medusajspayment-adyen) — Payment provider maintained by Medusa in partnership with Adyen.                                                                                 | Official Medusa |
+| [Authorize.net](https://medusajs.com/integrations/authorizenet)                                                                                                                                                               | Community       |
+| [Blockonomics](https://medusajs.com/integrations/@blockonomicsmedusa-payment-blockonomics)                                                                                                                                    | Community       |
+| [Braintree](https://medusajs.com/integrations/lambdacurry-braintree)                                                                                                                                                          | Medusa partner  |
+| [BTCPay](https://medusajs.com/integrations/btcpay)                                                                                                                                                                            | Community       |
+| [CLINK](https://medusajs.com/integrations/medusa-plugin-bitcoin-lightning-via-clink)                                                                                                                                          | Community       |
+| [Comgate](https://medusajs.com/integrations/medusa-plugin-comgate)                                                                                                                                                            | Community       |
+| [Cryptonly](https://medusajs.com/integrations/@cryptonlymedusa-plugin-cryptonly)                                                                                                                                              | Community       |
+| [CutLuy](https://medusajs.com/integrations/medusa-payment-cutluy)                                                                                                                                                             | Community       |
+| [CyberSource](https://medusajs.com/integrations/cybersource)                                                                                                                                                                  | Community       |
+| [Juspay Hyperswitch](https://medusajs.com/integrations/@juspay-techmedusa-custom-payments)                                                                                                                                    | Community       |
+| [M-Pesa Payments](https://medusajs.com/integrations/medusa-payment-mpesa)                                                                                                                                                     | Community       |
+| [MakePay](https://medusajs.com/integrations/@makecryptomedusa-plugin-makepay)                                                                                                                                                 | Community       |
+| [Manual Bank Transfer](https://medusajs.com/integrations/medusa-payment-manual-transfer) — Collect bank transfers with a payment-proof upload.                                                                                | Community       |
+| [Manual Payment](https://medusajs.com/integrations/medusajs-payment) — Record payments handled outside an online gateway.                                                                                                     | Official Medusa |
+| [MercadoPago by Hewsos](https://medusajs.com/integrations/@hewsosmedusa-pay-mpago) — Support cards, PIX, and refunds in Mercado Pago.                                                                                         | Community       |
+| [Mercadopago by Nicolas Gorga](https://medusajs.com/integrations/nicogorga-mercadopago) — Connect a Medusa store to Mercado Pago for Latin American payments.                                                                 | Community       |
+| [Mobupay](https://medusajs.com/integrations/medusa-payment-mobupay)                                                                                                                                                           | Community       |
+| [Mollie (Joey D)](https://medusajs.com/integrations/@joey-dmollie-payments-medusa)                                                                                                                                            | Community       |
+| [MONEI](https://medusajs.com/integrations/medusa-payment-monei)                                                                                                                                                               | Community       |
+| [NMI](https://medusajs.com/integrations/medusa-payment-nmi)                                                                                                                                                                   | Community       |
+| [Nova Money](https://medusajs.com/integrations/@novamoney-nova-pay)                                                                                                                                                           | Community       |
+| [Open Border](https://medusajs.com/integrations/@open-bordermedusa-payment-openborder)                                                                                                                                        | Community       |
+| [Pay.](https://medusajs.com/integrations/@webbers-pay)                                                                                                                                                                        | Medusa partner  |
+| [PayPal setup guide](https://medusajs.com/blog/paypal-integration/) — Medusa walkthrough for setting up PayPal payments.                                                                                                      | Guide           |
+| [PayPal by Alphabite](https://medusajs.com/integrations/alphabite-paypal) — Supports captures and refunds. Current releases target Medusa 2.13 or later. The publisher documents plugin 0.2.5 for earlier Medusa v2 versions. | Community       |
+| [PayPal by EasyPayment Plugins](https://medusajs.com/integrations/@easypaymentmedusa-payment-paypal) — Offer PayPal buttons and hosted card fields, with account setup in Medusa Admin.                                       | Community       |
+| [PayPal by RSC Labs](https://medusajs.com/integrations/@rsc-labs-paypal) — Payment provider for PayPal capture and refund flows.                                                                                              | Community       |
+| [Paystack](https://medusajs.com/integrations/paystack)                                                                                                                                                                        | Community       |
+| [Paytrail](https://medusajs.com/integrations/@solteq-excommedusa-payment-paytrail)                                                                                                                                            | Community       |
+| [PayU](https://medusajs.com/integrations/@sam-ael-payu)                                                                                                                                                                       | Community       |
+| [Peach](https://medusajs.com/integrations/medusa-payment-peach-payments)                                                                                                                                                      | Community       |
+| [POS Payments (Brazil)](https://medusajs.com/integrations/@voolulabsmedusajs-plugin-pos-payments)                                                                                                                             | Community       |
+| [Przelewy24](https://medusajs.com/integrations/gmisoftware-przelewy24)                                                                                                                                                        | Community       |
+| [Razorpay](https://medusajs.com/integrations/@sgftechpayment-razorpay)                                                                                                                                                        | Community       |
+| [Robokassa](https://medusajs.com/integrations/robokassa)                                                                                                                                                                      | Community       |
+| [Square by RSC Labs](https://medusajs.com/integrations/@rsc-labsmedusa-square-payment) — Accept in-person payments through Square POS.                                                                                        | Community       |
+| [Square by Seeed](https://medusajs.com/integrations/@weareseeedmedusa-square-plugin) — Process Square payments through a Medusa payment provider.                                                                             | Medusa partner  |
+| [Stripe Official](https://medusajs.com/integrations/@medusajspayment-stripe) — Accept cards and wallets using Medusa's official provider.                                                                                     | Official Medusa |
+| [SumUp](https://medusajs.com/integrations/medusa-payment-sumup)                                                                                                                                                               | Community       |
+| [T-Kassa](https://medusajs.com/integrations/t-kassa)                                                                                                                                                                          | Community       |
+| [Tochka](https://medusajs.com/integrations/@medusa-tochka)                                                                                                                                                                    | Community       |
+| [Tpay](https://medusajs.com/integrations/tpay)                                                                                                                                                                                | Community       |
+| [Vonpay](https://medusajs.com/integrations/vonpay-medusa)                                                                                                                                                                     | Community       |
+| [Wompi](https://medusajs.com/integrations/@mantissaiomedusa-payment-wompi)                                                                                                                                                    | Community       |
+| [YooKassa](https://medusajs.com/integrations/yookassa)                                                                                                                                                                        | Community       |
+| [Zoho Payments](https://medusajs.com/integrations/medusa-payment-zoho)                                                                                                                                                        | Community       |
 
 ### Pricing and point of sale
 
-| Extension or resource | Type |
-| --- | --- |
-| [NBP FX Pricing](https://medusajs.com/integrations/@zanrealmedusa-fx-pricing) | Community |
-| [POS Endpoints](https://medusajs.com/integrations/@narisolutionsmedusa-plugin-pos) | Community |
+| Extension or resource                                                                                | Type      |
+| ---------------------------------------------------------------------------------------------------- | --------- |
+| [NBP FX Pricing](https://medusajs.com/integrations/@zanrealmedusa-fx-pricing)                        | Community |
+| [POS Endpoints](https://medusajs.com/integrations/@narisolutionsmedusa-plugin-pos)                   | Community |
 | [Quantity Pricing Rules](https://medusajs.com/integrations/@webbycrownmedusa-quantity-pricing-rules) | Community |
 
 ### Search and discovery
 
-| Extension or resource | Type |
-| --- | --- |
-| [Algolia](https://docs.medusajs.com/resources/integrations/guides/algolia) — Guide to adding Algolia-backed product search. | Guide |
-| [Asyntai AI Search](https://medusajs.com/integrations/@asyntaimedusa-plugin-ai-search) — Search for products using natural-language queries. | Community |
-| [Elasticsearch](https://github.com/peterborodatyy/medusa-plugin-elasticsearch) — Indexes Medusa products in Elasticsearch. Its published manifest targets Medusa 2.5 and later 2.x releases. | Community |
+| Extension or resource                                                                                                                                                                                          | Type      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| [Algolia](https://docs.medusajs.com/resources/integrations/guides/algolia) — Guide to adding Algolia-backed product search.                                                                                    | Guide     |
+| [Asyntai AI Search](https://medusajs.com/integrations/@asyntaimedusa-plugin-ai-search) — Search for products using natural-language queries.                                                                   | Community |
+| [Elasticsearch](https://github.com/peterborodatyy/medusa-plugin-elasticsearch) — Indexes Medusa products in Elasticsearch. Its published manifest targets Medusa 2.5 and later 2.x releases.                   | Community |
 | [Meilisearch](https://medusajs.com/integrations/@rokmoharmedusa-plugin-meilisearch) — Stand-alone product-search plugin. See the publisher's compatibility matrix for the matching Medusa and plugin versions. | Community |
-| [Meilisearch setup guide](https://docs.medusajs.com/resources/integrations/guides/meilisearch) — Medusa guide to setting up product indexing and search with Meilisearch. | Guide |
+| [Meilisearch setup guide](https://docs.medusajs.com/resources/integrations/guides/meilisearch) — Medusa guide to setting up product indexing and search with Meilisearch.                                      | Guide     |
 
 ### Tax, invoicing, and compliance
 
-| Extension or resource | Type |
-| --- | --- |
-| [Avalara](https://docs.medusajs.com/resources/integrations/guides/avalara) | Guide |
-| [Avalara (community)](https://medusajs.com/integrations/u11d-avalara) | Community |
-| [E-Invoicing](https://medusajs.com/integrations/medusa-plugin-einvoice) | Community |
-| [Fakturownia Invoicing](https://medusajs.com/integrations/@koda-plusmedusa-plugin-fakturownia) | Community |
-| [Finbaze](https://medusajs.com/integrations/@finbazemedusa) | Community |
-| [inFakt Invoicing](https://medusajs.com/integrations/@zanrealmedusa-infakt) | Community |
-| [Invoices](https://medusajs.com/integrations/@webbersinvoices-medusa) | Medusa partner |
-| [IT-Recht](https://medusajs.com/integrations/@sadu-devmedusa-plugin-itrk) | Community |
-| [PDF Documents](https://medusajs.com/integrations/rsc-labs-medusa-documents-v2) | Community |
-| [Sandbox KYC Verification](https://medusajs.com/integrations/@jytextilesmedusa-plugin-sandbox-kyc) | Community |
-| [VAT Whitelist (PL/EU)](https://medusajs.com/integrations/@koda-plusmedusa-plugin-vat-whitelist) | Community |
-| [XRechnung & ZUGFeRD](https://medusajs.com/integrations/@normwerkeinvoice-medusa) | Community |
+| Extension or resource                                                                              | Type           |
+| -------------------------------------------------------------------------------------------------- | -------------- |
+| [Avalara](https://docs.medusajs.com/resources/integrations/guides/avalara)                         | Guide          |
+| [Avalara (community)](https://medusajs.com/integrations/u11d-avalara)                              | Community      |
+| [E-Invoicing](https://medusajs.com/integrations/medusa-plugin-einvoice)                            | Community      |
+| [Fakturownia Invoicing](https://medusajs.com/integrations/@koda-plusmedusa-plugin-fakturownia)     | Community      |
+| [Finbaze](https://medusajs.com/integrations/@finbazemedusa)                                        | Community      |
+| [inFakt Invoicing](https://medusajs.com/integrations/@zanrealmedusa-infakt)                        | Community      |
+| [Invoices](https://medusajs.com/integrations/@webbersinvoices-medusa)                              | Medusa partner |
+| [IT-Recht](https://medusajs.com/integrations/@sadu-devmedusa-plugin-itrk)                          | Community      |
+| [PDF Documents](https://medusajs.com/integrations/rsc-labs-medusa-documents-v2)                    | Community      |
+| [Sandbox KYC Verification](https://medusajs.com/integrations/@jytextilesmedusa-plugin-sandbox-kyc) | Community      |
+| [VAT Whitelist (PL/EU)](https://medusajs.com/integrations/@koda-plusmedusa-plugin-vat-whitelist)   | Community      |
+| [XRechnung & ZUGFeRD](https://medusajs.com/integrations/@normwerkeinvoice-medusa)                  | Community      |
 
 ## Medusa Expert agencies
 
 All 20 published profiles in the Medusa Experts directory as of November 24, 2026. The profiles show supported markets, project types, and published client work. [Medusa Experts](https://medusajs.com/experts)
 
-| Agency | Regions served |
-| --- | --- |
-| [306 Technologies](https://medusajs.com/experts/306-technologies) | North America, Europe |
-| [Agilo](https://medusajs.com/experts/agilo) | Europe, North America, Asia, Australia, South America, Middle East, Africa |
-| [Alpha Solutions](https://medusajs.com/experts/alpha-solutions) | Europe, North America, South America |
-| [byte5](https://medusajs.com/experts/byte5) | Europe |
-| [Cloudflight](https://medusajs.com/experts/cloudflight) | Europe, North America, Asia, Australia, South America, Middle East, Africa |
-| [DBot Software](https://medusajs.com/experts/dbot-software) | Europe, Asia, Middle East, Australia |
-| [Hollowpoint.io](https://medusajs.com/experts/hollowpoint-io) | Europe |
-| [Immeo](https://medusajs.com/experts/immeo) | Europe |
-| [Lambda Curry](https://medusajs.com/experts/lambda-curry) | North America, Europe, Middle East, South America |
-| [Lean Scale](https://medusajs.com/experts/leanscale) | Middle East, Asia, Europe, North America, Australia, South America, Africa |
-| [Oak Digital](https://medusajs.com/experts/oak-digital) | Europe, North America, Australia |
-| [Pulsehub](https://medusajs.com/experts/pulsehub) | Europe, North America, Asia, Middle East, South America |
-| [rb2](https://medusajs.com/experts/rb2) | Europe, North America, Asia, Australia, South America, Middle East, Africa |
-| [Rigby](https://medusajs.com/experts/rigby) | Europe, North America, Asia, Australia, Middle East |
-| [Seeed](https://medusajs.com/experts/seeed) | North America, South America, Europe |
-| [Sobefy](https://medusajs.com/experts/sobefy) | Europe, North America |
-| [Thoughtworks](https://medusajs.com/experts/thoughtworks) | Asia, North America, Europe, Australia, South America, Middle East, Africa |
-| [Tinloof](https://medusajs.com/experts/tinloof) | Europe, North America, Asia, South America, Australia |
-| [Webbers](https://medusajs.com/experts/webbers) | Europe, North America |
-| [WebexpR](https://medusajs.com/experts/Webexpr) | Europe |
+| Agency                                                            | Regions served                                                             |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [306 Technologies](https://medusajs.com/experts/306-technologies) | North America, Europe                                                      |
+| [Agilo][agilo-expert-profile]                                     | Europe, North America, Asia, Australia, South America, Middle East, Africa |
+| [Alpha Solutions](https://medusajs.com/experts/alpha-solutions)   | Europe, North America, South America                                       |
+| [byte5](https://medusajs.com/experts/byte5)                       | Europe                                                                     |
+| [Cloudflight](https://medusajs.com/experts/cloudflight)           | Europe, North America, Asia, Australia, South America, Middle East, Africa |
+| [DBot Software](https://medusajs.com/experts/dbot-software)       | Europe, Asia, Middle East, Australia                                       |
+| [Hollowpoint.io](https://medusajs.com/experts/hollowpoint-io)     | Europe                                                                     |
+| [Immeo](https://medusajs.com/experts/immeo)                       | Europe                                                                     |
+| [Lambda Curry](https://medusajs.com/experts/lambda-curry)         | North America, Europe, Middle East, South America                          |
+| [Lean Scale](https://medusajs.com/experts/leanscale)              | Middle East, Asia, Europe, North America, Australia, South America, Africa |
+| [Oak Digital](https://medusajs.com/experts/oak-digital)           | Europe, North America, Australia                                           |
+| [Pulsehub](https://medusajs.com/experts/pulsehub)                 | Europe, North America, Asia, Middle East, South America                    |
+| [rb2](https://medusajs.com/experts/rb2)                           | Europe, North America, Asia, Australia, South America, Middle East, Africa |
+| [Rigby](https://medusajs.com/experts/rigby)                       | Europe, North America, Asia, Australia, Middle East                        |
+| [Seeed](https://medusajs.com/experts/seeed)                       | North America, South America, Europe                                       |
+| [Sobefy](https://medusajs.com/experts/sobefy)                     | Europe, North America                                                      |
+| [Thoughtworks](https://medusajs.com/experts/thoughtworks)         | Asia, North America, Europe, Australia, South America, Middle East, Africa |
+| [Tinloof](https://medusajs.com/experts/tinloof)                   | Europe, North America, Asia, South America, Australia                      |
+| [Webbers](https://medusajs.com/experts/webbers)                   | Europe, North America                                                      |
+| [WebexpR](https://medusajs.com/experts/Webexpr)                   | Europe                                                                     |
 
 ## Projects in production
 
@@ -387,41 +387,54 @@ The linked cases describe what went live and credit the people or teams who cont
 
 ### Agency implementations
 
-| Project | Agency | What shipped |
-| --- | --- | --- |
-| [Agent Paper](https://zakaru.studio/cas-clients/agent-paper) | Zakaru | Unified three storefronts with separate catalogs and pricing for consumers, businesses, and resellers. [Store](https://www.agentpaper.com/fr) |
-| [Buketi.mk](https://www.ebarion.com/work/buketi-mk) | Ebarion | Flower marketplace on Medusa and Mercur, with vendor dashboards and payouts. [Store](https://buketi.mk/) |
-| [CarHunter](https://nsweb.dev/projects/carhunter) | NSWEB | Tire and wheel storefront with item-level stock, CSV inventory imports, and warehouse tooling. [Store](https://rattad.com/) |
-| [DrillStom](https://seedlight.eu/work/drillstom) | Seedlight | Dental wholesale storefront with company accounts and a matrix for product variants. [Store](https://drillstom.pl/) |
-| [Edith Wilmot](https://www.pinwheelagency.co.uk/blog/edith-wilmot-headless-florist-case-study) | Pinwheel | Florist storefront with catalog and same-day local delivery. |
-| [EvenMall](https://www.corplabs.co/portfolio/evenmall) | Corplabs | Furniture marketplace with Xendit payments. [Store](https://evenmall.com/) |
-| [Flatlist Eyewear](https://www.agilo.com/work/flatlist/) | Agilo | V2 migration and a wholesale portal for eyewear retailers. |
-| [Frecious](https://github.com/webbersagency/webbers-medusa/blob/ce4a0a3b229ccaf267e7e5dbc90ab5c4accaad0f/README.md) | Webbers | Medusa backend work documented through the V2 admin plugin that Webbers extracted from this project. |
-| [Froodly](https://agency.namankataria.com/work/building-froodly-a-headless-d2c-e-commerce-platform-for-grocery-delivery) | Agency by Naman Kataria | Grocery storefront and local delivery flows. [Launch report](https://agency.namankataria.com/insights/crossing-the-finish-line-the-froodly-launch-key-learnings-and-what-s-next) |
-| [Healthletic](https://medusajs.com/blog/healthletic) | Rigby | Phased migration from Shopify Plus, with storefront, checkout, and recurring subscriptions. [Related Medusa v2 guide](https://medusajs.com/kb/migrations-and-platforms/outgrown-shopify-plus) |
-| [Increddy](https://kryeo.com/work/increddy) | Kryeo | Replaced Shopify with a self-hosted Medusa v2 backend for digital license fulfillment while keeping the existing storefront. |
-| [Inspired Pet Nutrition](https://medusajs.com/blog/inspired-pet-nutrition) | rb2 | Order management system that turns emailed purchase orders into drafts and connects to the IFS and Tropos ERPs. |
-| [KryticalStyle](https://fynxforge.com/kryticalstyle-case-study.html) | Fynx Forge | Arabic and English fashion storefront with regional payment and shipping integrations. [Store](https://www.kryticalstyle.com/) |
-| [Lunula Botanique](https://progrise.dev/work/lunula-botanique/) | Progrise | E-commerce migration for an organic skincare brand. |
-| [Lumine Concept](https://syntance.com/portfolio/lumine-concept) | Syntance | WooCommerce migration for a beauty signage storefront. The public [Medusa v2 backend](https://github.com/Syntance/lumineconcept) shows how Syntance structured the replacement commerce backend. |
-| [Maison Kameur](https://nualt.fr/en/case-studies/maison-kameur) | Nualt | Multi-artisan storefront with shipping split by artisan. Nualt built its [Better Auth plugin for Medusa v2](https://github.com/nualt/medusa-plugin-better-auth) for this store. |
-| [Montelink](https://www.rigbyjs.com/case-studies/montelink) | Rigby | Multi-market marketplace built on [Mercur](https://github.com/mercurjs/mercur), with per-minute billing and seller payouts via [Stripe Connect](https://docs.stripe.com/connect). |
-| [Redington](https://medusajs.com/blog/redington) | Thoughtworks and Redington | B2B technology distribution platform, with workflows connecting ERP, warehouse management, and finance systems. [V2 implementation note](https://github.com/AlaguSelvan/AlaguSelvan/blob/43c16343d456ccbc0765c6d821e1d48d7be77cef/README.md) |
-| [Risitex / Lamongie](https://mith.tech/case-studies/lamongie-b2b-b2c-textile-commerce) | MithTech | Shared catalog for dealers and retail shoppers, with company pricing and a custom plugin that syncs to [ERPNext](https://github.com/frappe/erpnext). [Store](https://lamongie.in/en) |
-| [Sivam Nighties](https://www.harnikadesign.com/work/sivam-nighties/) | Harnika Design | Fashion storefront migrated from WooCommerce. |
-| [Tekla](https://www.agilo.com/work/tekla/) | Agilo | Webshop and in-store point of sale backed by Medusa. Agilo used [Adyen](https://www.adyen.com/) for global payments, as documented in its [Medusa profile](https://medusajs.com/experts/agilo). |
-| [Vision Rescue](https://www.sobefy.com/portfolio/shopify-to-medusa-replatform) | Sobefy | Consumer and wholesale optical storefronts migrated from Shopify. |
-| [Vitrine Masculina DTNA](https://www.lexondigital.com.br/work/vitrine-masculina) | Lexon Digital | Fashion storefront with a Mercado Pago payment module. [Store](https://vitrinemasculinadtna.com.br/) |
-| [Wipertech](https://medusajs.com/blog/wipertech) | 306 Technologies | Vehicle-first storefront and fitment engine for automotive parts, deployed on Medusa Cloud. [Related Medusa v2 guide](https://medusajs.com/kb/migrations-and-platforms/magento-migration) |
-| [Yogateria](https://thespecialcharacter.com/projects/yogateria) | The Special Character | WooCommerce migration for a Brazilian yoga retailer. [Store](https://yogateria.com.br/) |
+| Project                                                                                                             | Agency                     | What shipped                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Agent Paper](https://zakaru.studio/cas-clients/agent-paper)                                                        | Zakaru                     | Unified three storefronts with separate catalogs and pricing for consumers, businesses, and resellers. [Store](https://www.agentpaper.com/fr)                                                                                                |
+| [Buketi.mk](https://www.ebarion.com/work/buketi-mk)                                                                 | Ebarion                    | Flower marketplace on Medusa and Mercur, with vendor dashboards and payouts. [Store](https://buketi.mk/)                                                                                                                                     |
+| [CarHunter](https://nsweb.dev/projects/carhunter)                                                                   | NSWEB                      | Tire and wheel storefront with item-level stock, CSV inventory imports, and warehouse tooling. [Store](https://rattad.com/)                                                                                                                  |
+| [DrillStom](https://seedlight.eu/work/drillstom)                                                                    | Seedlight                  | Dental wholesale storefront with company accounts and a matrix for product variants. [Store](https://drillstom.pl/)                                                                                                                          |
+| [Edith Wilmot](https://www.pinwheelagency.co.uk/blog/edith-wilmot-headless-florist-case-study)                      | Pinwheel                   | Florist storefront with catalog and same-day local delivery.                                                                                                                                                                                 |
+| [EvenMall](https://www.corplabs.co/portfolio/evenmall)                                                              | Corplabs                   | Furniture marketplace with Xendit payments. [Store](https://evenmall.com/)                                                                                                                                                                   |
+| [Flatlist Eyewear][flatlist-case]                                                                                   | Agilo                      | V2 migration and a wholesale portal for eyewear retailers.                                                                                                                                                                                   |
+| [Frecious](https://github.com/webbersagency/webbers-medusa/blob/ce4a0a3b229ccaf267e7e5dbc90ab5c4accaad0f/README.md) | Webbers                    | Medusa backend work documented through the V2 admin plugin that Webbers extracted from this project.                                                                                                                                         |
+| [Froodly][froodly-case]                                                                                             | Agency by Naman Kataria    | Grocery storefront and local delivery flows. [Launch report](https://agency.namankataria.com/insights/crossing-the-finish-line-the-froodly-launch-key-learnings-and-what-s-next)                                                             |
+| [Healthletic](https://medusajs.com/blog/healthletic)                                                                | Rigby                      | Phased migration from Shopify Plus, with storefront, checkout, and recurring subscriptions. [Related Medusa v2 guide](https://medusajs.com/kb/migrations-and-platforms/outgrown-shopify-plus)                                                |
+| [Increddy](https://kryeo.com/work/increddy)                                                                         | Kryeo                      | Replaced Shopify with a self-hosted Medusa v2 backend for digital license fulfillment while keeping the existing storefront.                                                                                                                 |
+| [Inspired Pet Nutrition](https://medusajs.com/blog/inspired-pet-nutrition)                                          | rb2                        | Order management system that turns emailed purchase orders into drafts and connects to the IFS and Tropos ERPs.                                                                                                                              |
+| [KryticalStyle](https://fynxforge.com/kryticalstyle-case-study.html)                                                | Fynx Forge                 | Arabic and English fashion storefront with regional payment and shipping integrations. [Store](https://www.kryticalstyle.com/)                                                                                                               |
+| [Lunula Botanique](https://progrise.dev/work/lunula-botanique/)                                                     | Progrise                   | E-commerce migration for an organic skincare brand.                                                                                                                                                                                          |
+| [Lumine Concept](https://syntance.com/portfolio/lumine-concept)                                                     | Syntance                   | WooCommerce migration for a beauty signage storefront. The public [Medusa v2 backend][lumine-backend] shows how Syntance structured the replacement commerce backend.                                                                        |
+| [Maison Kameur](https://nualt.fr/en/case-studies/maison-kameur)                                                     | Nualt                      | Multi-artisan storefront with shipping split by artisan. Nualt built its [Better Auth plugin for Medusa v2](https://github.com/nualt/medusa-plugin-better-auth) for this store.                                                              |
+| [Montelink][montelink-case]                                                                                         | Rigby                      | Multi-market marketplace built on [Mercur][], with per-minute billing and seller payouts via [Stripe Connect](https://docs.stripe.com/connect).                                                                                              |
+| [Redington](https://medusajs.com/blog/redington)                                                                    | Thoughtworks and Redington | B2B technology distribution platform, with workflows connecting ERP, warehouse management, and finance systems. [V2 implementation note](https://github.com/AlaguSelvan/AlaguSelvan/blob/43c16343d456ccbc0765c6d821e1d48d7be77cef/README.md) |
+| [Risitex / Lamongie](https://mith.tech/case-studies/lamongie-b2b-b2c-textile-commerce)                              | MithTech                   | Shared catalog for dealers and retail shoppers, with company pricing and a custom plugin that syncs to [ERPNext](https://github.com/frappe/erpnext). [Store](https://lamongie.in/en)                                                         |
+| [Sivam Nighties][sivam-nighties-case]                                                                               | Harnika Design             | Fashion storefront migrated from WooCommerce.                                                                                                                                                                                                |
+| [Tekla](https://www.agilo.com/work/tekla/)                                                                          | Agilo                      | Webshop and in-store point of sale backed by Medusa. Agilo used [Adyen](https://www.adyen.com/) for global payments, as documented in its [Medusa profile][agilo-expert-profile].                                                            |
+| [Vision Rescue][vision-rescue-case]                                                                                 | Sobefy                     | Consumer and wholesale optical storefronts migrated from Shopify.                                                                                                                                                                            |
+| [Vitrine Masculina DTNA](https://www.lexondigital.com.br/work/vitrine-masculina)                                    | Lexon Digital              | Fashion storefront with a Mercado Pago payment module. [Store](https://vitrinemasculinadtna.com.br/)                                                                                                                                         |
+| [Wipertech](https://medusajs.com/blog/wipertech)                                                                    | 306 Technologies           | Vehicle-first storefront and fitment engine for automotive parts, deployed on Medusa Cloud. [Related Medusa v2 guide](https://medusajs.com/kb/migrations-and-platforms/magento-migration)                                                    |
+| [Yogateria](https://thespecialcharacter.com/projects/yogateria)                                                     | The Special Character      | WooCommerce migration for a Brazilian yoga retailer. [Store](https://yogateria.com.br/)                                                                                                                                                      |
 
 ### Other implementation teams
 
-| Project | Implementation credit | What shipped |
-| --- | --- | --- |
-| [4Life Nutrition](https://github.com/domingos-engineering/4life-nutrition-showcase) | Domingos Engineering (contributing developer) | Sports nutrition storefront with commerce integrations and subscription workflows. |
-| [Metro Apparel](https://github.com/NafisHandoko/metroapparel) | Nafis Handoko | Custom apparel storefront with a public V2 backend repository. [Store](https://metroapparel.web.id/) |
+| Project                                                                             | Implementation credit                         | What shipped                                                                                         |
+| ----------------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [4Life Nutrition](https://github.com/domingos-engineering/4life-nutrition-showcase) | Domingos Engineering (contributing developer) | Sports nutrition storefront with commerce integrations and subscription workflows.                   |
+| [Metro Apparel](https://github.com/NafisHandoko/metroapparel)                       | Nafis Handoko                                 | Custom apparel storefront with a public V2 backend repository. [Store](https://metroapparel.web.id/) |
 
 ## Contributing
 
 Open an issue or pull request to suggest an entry, share a project, or correct a compatibility claim. Include a public source for the change. [Contribution guide](CONTRIBUTING.md)
+
+[dtc-starter]: https://github.com/medusajs/dtc-starter
+[storefront-guide]: https://docs.medusajs.com/resources/storefront-development
+[froodly-case]: https://agency.namankataria.com/work/building-froodly-a-headless-d2c-e-commerce-platform-for-grocery-delivery
+[b2b-starter]: https://github.com/medusajs/b2b-starter
+[flatlist-case]: https://www.agilo.com/work/flatlist/
+[mercur]: https://github.com/mercurjs/mercur
+[montelink-case]: https://www.rigbyjs.com/case-studies/montelink
+[shopify-migration]: https://docs.medusajs.com/learn/introduction/build-with-llms-ai/docs-mcp-server/migrate-from-shopify
+[lumine-backend]: https://github.com/Syntance/lumineconcept
+[vision-rescue-case]: https://www.sobefy.com/portfolio/shopify-to-medusa-replatform
+[sivam-nighties-case]: https://www.harnikadesign.com/work/sivam-nighties/
+[agilo-expert-profile]: https://medusajs.com/experts/agilo
